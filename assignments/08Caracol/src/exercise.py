@@ -1,6 +1,6 @@
 def main():
     #escribe tu código abajo de esta línea
-    minutos = float(input("Dame los minutos: "))
+    minutos = str(input("Dame los minutos: "))
     velocidad = 5.7*6
     centímetros_recorridos = (minutos*velocidad)
     print("Centímetros recorridos:", centímetros_recorridos)
