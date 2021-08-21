@@ -5,7 +5,7 @@ def main():
     segundos = minutos*60
     cm = segundos*(5.7)
     conversion = cm/10
-    print("Centímetros recorridos:", conversion)
+    print("Centímentros recorridos:", conversion)
 
 if __name__ == '__main__':
     main()
