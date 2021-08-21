@@ -1,8 +1,8 @@
 def main():
     #escribe tu código abajo de esta línea
     minutos = int(input("Dame los minutos: "))
-    velocidad = 34.2
-    centímetros_recorridos = (minutos*velocidad)
+    velocidad = 5.7
+    centímetros_recorridos = (minutos*velocidad)*6
     print("Centímetros recorridos:", centímetros_recorridos)
 
 if __name__ == '__main__':
