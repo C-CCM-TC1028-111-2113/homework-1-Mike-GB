@@ -6,7 +6,7 @@ def main():
     cheques = float(input("Dame el número de cheques: "))
     
     saldo = mes_anterior + ingresos - egresos -13*cheques
-    saldo_final = saldo - 0.75*saldo
+    saldo_final = saldo - (0.75)*saldo
     print("El saldo final de la cuenta es:", saldo_final)
     
 
